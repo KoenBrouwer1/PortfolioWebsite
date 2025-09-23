@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/nav-bar.css" />
+        <link rel ="icon" href="/img/PFP.JPEG" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a class="activetab" href="index.html">Home</a>
+                </li>
+                <li class="hideOnMobile">
+                    <a href="projecten.html">Projects</a>
+                </li>
+                <li class="hideOnMobile">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="hideOnMobile">
+                    <a href="#">About me</a>
+                </li>
+                <li class="hideOnDesktop" onclick="showsidebar()">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                        </svg>
+                    
+                    </a>
+                </li>
+            </ul>
+            <ul class="sidebar">
+                <li onclick="hidesidebar()">
+                    <a href="#">
+                        <svg height="30" viewBox="0 0 24 24" width="30" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#e8e8e8">
+                            <g id="SVGRepo_iconCarrier"></g>
+                            <g id="SVGRepo_iconCarrier"></g>
+                                <path d="M6.99486 7.00636C6.60433 7.39689 6.60433 8.03005 6.99486 8.42058L10.58 12.0057L6.99486 15.5909C6.60433 15.9814 6.60433 16.6146 6.99486 17.0051C7.38538 17.3956 8.01855 17.3956 8.40907 17.0051L11.9942 13.4199L15.5794 17.0051C15.9699 17.3956 16.6031 17.3956 16.9936 17.0051C17.3841 16.6146 17.3841 15.9814 16.9936 15.5909L13.4084 12.0057L16.9936 8.42059C17.3841 8.03007 17.3841 7.3969 16.9936 7.00638C16.603 6.61585 15.9699 6.61585 15.5794 7.00638L11.9942 10.5915L8.40907 7.00636C8.01855 6.61584 7.38538 6.61584 6.99486 7.00636Z" fill="#ffffff"></path>
+                            </g>
+                        </svg>
+                        
+                    </a>
+                </li>
+                <li><a href="index.html" class="activetab">Home</a></li>
+                <li><a href="projecten.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">About me</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="textcontainer">
+                <h1><span>Koen Brouwer</span></h1>
+                <h3>My name is Koen Brouwer, I am a new fullstack software developer from the Netherlands. I am very open to learn and make beautiful and functional websites, I have worked on a couple projects like a text adventure game and a webgame  I also worked on group projects like a webshop. I have a total of 2 years of experience. My specialties are HTML and CSS I also am currently working on increasing my skills in PHP.</h3>
+                <div style="display: flex;">
+                    <a class="iconsA" href="https://github.com/KoenBrouwer1">
+                        <img class="footer-icon footer-icons" src="https://img.icons8.com/?size=100&id=62856&format=png&color=FFFFFF" alt="Icons8" />
+                    </a>
+                    <a class="iconsA" href="https://www.linkedin.com/in/koen-brouwer-">
+                        <img id="linkedin" class="footer-icon footer-icons" src="https://img.icons8.com/?size=100&id=62925&format=png&color=FFFFFF" alt="LinkedIn Icon" />
+                    </a>
+                    <a href="contact.html" class="iconsA">
+                        <img class="footer-icon footer-icons" src="https://img.icons8.com/?size=100&id=86875&format=png&color=FFFFFF" alt="Email Icon" />
+
+                    </a>
+                </div>
+            </div>
+            <div class="terminal">
+                <img src="https://img.icons8.com/?size=100&id=8112&format=png&color=FFFFFF" class="icons red" alt="exit"/>
+                <img src="https://img.icons8.com/?size=100&id=4knsel5keE42&format=png&color=FFFFFF" class="icons gray" alt="fullscreen"/>
+                <img src="https://img.icons8.com/?size=100&id=89356&format=png&color=FFFFFF" class="icons gray" alt="maximize"/>
+                    <pre>
+> Wat voor software en hardware gebruik ik?
+
+- Laptop     Asus Zenbook 14 (2024)
+    specs ↓
+- CPU         Intel Core Ultra 9 185H 16 Core
+- Ram         32GB 7467MHz DDR5
+- GPU         Intel Arc integrated graphics
+- beeldscherm 14 inch 3K OLED 120Hz
+
+> software   
+-             VS Code  
+-             XAMPP
+
+                    </pre>
+                </img>
+            </div>
+        </div>
+        <footer>
+        </footer>
+        <script src="/js/script.js"></script>
+        <script src="/js/sidebar.js"></script>
+    </body>
+</html> 
