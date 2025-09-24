@@ -3,6 +3,8 @@
     <head>
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/nav-bar.css" />
+        <link rel="stylesheet" href="/css/formcontainer.css" />
+        <link rel="stylesheet" href="/css/mobileversions.css" />
         <link rel ="icon" href="/img/PFP.JPEG" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,13 +15,13 @@
         <nav>
             <ul>
                 <li>
-                    <a class="activetab" href="index.html">Home</a>
+                    <a class="activetab" href="#Homesection">Home</a>
                 </li>
                 <li class="hideOnMobile">
                     <a href="projecten.html">Projects</a>
                 </li>
                 <li class="hideOnMobile">
-                    <a href="contact.html">Contact</a>
+                    <a href="#contactsection">Contact</a>
                 </li>
                 <li class="hideOnMobile">
                     <a href="#">About me</a>
@@ -45,16 +47,17 @@
                         
                     </a>
                 </li>
-                <li><a href="index.html" class="activetab">Home</a></li>
+                <li><a href="#Homesection" class="activetab">Home</a></li>
                 <li><a href="projecten.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#contactsection">Contact</a></li>
                 <li><a href="#">About me</a></li>
             </ul>
         </nav>
-        <div class="container">
+        <section id="Homesection">
+            <div class="container">
             <div class="textcontainer">
                 <h1><span>Koen Brouwer</span></h1>
-                <h3>My name is Koen Brouwer, I am a new fullstack software developer from the Netherlands. I am very open to learn and make beautiful and functional websites, I have worked on a couple projects like a text adventure game and a webgame  I also worked on group projects like a webshop. I have a total of 2 years of experience. My specialties are HTML and CSS I also am currently working on increasing my skills in PHP.</h3>
+                <h3>My name is Koen Brouwer, I am a new fullstack software developer from the Netherlands. I am very open to learn and make beautiful and functional websites, I have worked on a couple projects like a text adventure game and a webgame  I also worked on group projects like a webshop. I have 1 year experience. My specialties are HTML and CSS I also am currently working on increasing my skills in PHP.</h3>
                 <div style="display: flex;">
                     <a class="iconsA" href="https://github.com/KoenBrouwer1">
                         <img class="footer-icon footer-icons" src="https://img.icons8.com/?size=100&id=62856&format=png&color=FFFFFF" alt="Icons8" />
@@ -68,6 +71,8 @@
                     </a>
                 </div>
             </div>
+
+
             <div class="terminal">
                 <img src="https://img.icons8.com/?size=100&id=8112&format=png&color=FFFFFF" class="icons red" alt="exit"/>
                 <img src="https://img.icons8.com/?size=100&id=4knsel5keE42&format=png&color=FFFFFF" class="icons gray" alt="fullscreen"/>
@@ -87,9 +92,24 @@
 -             XAMPP
 
                     </pre>
-                </img>
             </div>
         </div>
+
+        </section>
+    <section id="contactsection">
+        <div class="container">
+            <div class="input-container">
+                <h3>Contact</h3>
+                <form action="https://api.web3forms.com/submit" method="POST" class="form-container">
+                    <input type="hidden" name="access_key" value="a5934384-7580-414e-a1d4-dc04e4e35e36">
+                    <input type="text" name="name" placeholder="Naam" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <button type="submit">Verstuur</button>
+                </form>
+            </div>
+        </div>
+    </section>
         <footer>
         </footer>
         <script src="/js/script.js"></script>
